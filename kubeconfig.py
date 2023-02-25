@@ -3,7 +3,7 @@ from argparse import Namespace
 import uuid
 
 
-class Kubernetes:
+class KubeConfig:
     def __init__(self, pod_name, namespace):
         self.pod_name = pod_name
         self.namespace = namespace
